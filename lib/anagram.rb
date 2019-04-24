@@ -2,8 +2,8 @@
 class Anagram
   attr_accessor :word
   
-  def initialize(mot)
-    @word = mot
+  def initialize(word)
+    @word = word
   end 
   
   def match(word_array)
